@@ -3,14 +3,14 @@ class ShoppingListJH:
         self.__food:str = food
         self.__amount:int = amount
         self.__priceMatch = {
-            "Dry Cured Iberian Ham" : 177.80,
-            "Wagyu Steaks" : 450.00,
-            "Matsutake Mushrooms" : 272.00,
-            "Kopi Luwak Coffee" : 306.50,
-            "Moose Cheese" : 487.20,
-            "White Truffles" : 3600.00,
-            "Blue Fin Tuna" : 3603.00,
-            "Le Bonnotte Potatoes" : 270.81
+            "dry cured iberian ham" : 177.80,
+            "wagyu steaks" : 450.00,
+            "matsutake mushrooms" : 272.00,
+            "kopi luwak coffee" : 306.50,
+            "moose cheese" : 487.20,
+            "white truffles" : 3600.00,
+            "blue fin tuna" : 3603.00,
+            "le bonnotte potatoes" : 270.81
         }
         self.__itemPriceMatchingJH()
         self.__totalPrice = self.calculateCostJH()

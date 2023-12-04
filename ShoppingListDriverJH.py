@@ -19,7 +19,7 @@ def orderFoodJH() -> list[ShoppingListJH]:
                 break
             print("Amount of pounds must be greater than 0.")
         print("")
-        allOrderedFood.append(ShoppingListJH(food, amount))
+        allOrderedFood.append(ShoppingListJH(food.lower(), amount))
         
     return allOrderedFood
 
